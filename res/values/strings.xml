@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">CameraOverlayTut</string>
+    <string name="title_activity_main">A Main Activity</string>
+    <string name="button_use_camera">GO!</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="button_capture_text">SNAP</string>
+    <string name="content_desc_overlay">overlay</string>
+    <string name="content_desc_image_just_taken">Image just taken</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_label">Log in</string>
+    <string name="title_activity_tweets">Timeline</string>
+    <string name="test">test</string>
+</resources>

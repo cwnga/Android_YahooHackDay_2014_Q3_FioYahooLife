@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.blundell.tut.cameraoverlay.ui.widget.CameraPreview
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+  <!--   <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/content_desc_overlay"
+        android:src="@drawable/cam_target" /> -->
+
+      <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:onClick="onCaptureClick"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/button_capture_text" />-->
+
+
+  
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" >
+
+       <TableRow
+           android:id="@+id/tableRow1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" >
+
+  
+
+           <ListView
+               android:id="@+id/newListView"
+               android:layout_weight="1" >
+           </ListView>
+
+                    <ListView
+               android:id="@+id/weatherListView"
+               android:layout_width="52dp"
+               android:layout_height="52dp"
+               android:layout_weight="1" >
+           </ListView>
+
+       </TableRow>
+
+       <TableRow
+           android:id="@+id/tableRow2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" >
+
+       </TableRow>
+   </TableLayout>
+ <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="136dp"
+       android:layout_gravity = "bottom" >
+          <ImageView
+       android:id="@+id/itemImage"
+       android:layout_width="168dp"
+       android:layout_height="158dp"
+       android:src="@drawable/item" 
+       android:onClick="openBid"/>
+   </LinearLayout>
+   
+
+
+</FrameLayout>
